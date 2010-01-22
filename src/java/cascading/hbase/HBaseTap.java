@@ -229,7 +229,7 @@ public class HBaseTap extends Tap
       return false;
 
     HBaseTap hBaseTap = (HBaseTap) object;
-
+    
     if( tableName != null ? !tableName.equals( hBaseTap.tableName ) : hBaseTap.tableName != null )
       return false;
 
